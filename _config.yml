@@ -1,11 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "Karthik Kalaiyarasu"
-description              : "The World of Data Science & More"
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,14 +88,13 @@ analytics:
     tracking_id          :
 
 
-
 # Site Author
 author:
-  name             : "Karthik Kalaiyarasu"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Every year+=1, I aim at learning more than what I already knew and adding to my knowledge stack in-order to navigate through the moving waters of the information technology ocean. I'm a proponent of "Hybrid Source" which is the right mix and usage of open source and proprietary technologies to arrive at seamless solutions to seemingly complex business challenges. I thrive when being challenged and pride myself on being a team player who is not afraid to lead when the situation arises. "
-  location         : "Chicago, IL"
-  email            : "kkalaiyarasu@hawk.iit.edu"
+  bio              : "I am an amazing person."
+  location         : "Somewhere"
+  email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -97,13 +103,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "karthik-kalaiyarasu"
+  github           :
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "karthik-kalaiyarasu" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -253,12 +259,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-      # _pages
-      - scope:
-        path: ""
-        type: pages
-      values:
-        layout: single
-        author_profile: true
-        
