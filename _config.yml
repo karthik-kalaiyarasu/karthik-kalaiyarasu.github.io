@@ -9,10 +9,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Karthik Kalaiyarasu Portfolio"
 title_separator          : "-"
+<<<<<<< HEAD
 name                     : "Your Name"
 description              : "An amazing website."
+=======
+name                     : "Karthik Kalaiyarasu"
+description              : "My world of Data Science & Beyond"
+>>>>>>> bfa2ed85ddc91d1d86cf5c37cbc4a42913f4ab72
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
